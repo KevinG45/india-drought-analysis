@@ -388,25 +388,17 @@ If you use this dataset or code in your research, please cite:
   howpublished = {\url{https://github.com/YOUR_USERNAME/drought-analysis-india}}
 }
 ```
-
-### Research Paper
-**Title**: Modeling Drought Impacts on Agricultural Productivity: A Multi-Scale Time Series Analysis  
-**Authors**: Group 2 - Christ University  
-**Year**: 2024
-
----
-
 ##  Contact
 
-**Project Maintainer**: [Your Name]  
-**Email**: [Your Email]  
-**LinkedIn**: [Your LinkedIn Profile]  
-**Institution**: Christ University
+  
+**Email**: **kmgs452003@gmail.com** 
+**LinkedIn**: **www.linkedin.com/in/kevin-m-george**
+
 
 ### Project Links
 - **GitHub Repository**: [https://github.com/KevinG45/india-drought-analysis](https://github.com/KevinG45/india-drought-analysis)
 - **Kaggle Dataset**: [https://www.kaggle.com/datasets/kmgs04/india-drought-analysis-data-2000-2023](https://www.kaggle.com/datasets/kmgs04/india-drought-analysis-data-2000-2023)
-- **Research Paper**: [Available on request]
+
 
 ---
 
