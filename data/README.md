@@ -2,7 +2,7 @@
 
 Due to GitHub's file size limitations, the complete datasets are hosted on Kaggle:
 
-🔗 **Full Dataset**: https://www.kaggle.com/datasets/kmgs04/india-drought-analysis-data-2000-2023
+ **Full Dataset**: https://www.kaggle.com/datasets/kmgs04/india-drought-analysis-data-2000-2023
 
 ## Quick Download
 

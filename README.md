@@ -1,4 +1,4 @@
-# 🌍 Drought Impact Analysis on Agricultural Productivity in India
+﻿#  Drought Impact Analysis on Agricultural Productivity in India
 ## A Multi-Scale Time Series Analysis of Groundwater and Agricultural Indicators
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Project Overview](#project-overview)
 - [Research Highlights](#research-highlights)
 - [Datasets](#datasets)
@@ -23,7 +23,7 @@
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This repository contains a comprehensive **time series analysis** investigating the impact of drought on agricultural productivity across three drought-prone regions in India:
 
@@ -35,16 +35,16 @@ This repository contains a comprehensive **time series analysis** investigating 
 To analyze the temporal relationships between groundwater indicators (GRACE, GLDAS) and agricultural productivity metrics using advanced time series modeling techniques to understand drought impacts on crop yields from **2000-2023**.
 
 ### Key Features
-- ✅ Multi-source satellite data integration (GRACE, GLDAS, MODIS)
-- ✅ District-level granular analysis (27 districts total)
-- ✅ 23+ years of historical data
-- ✅ Comprehensive EDA with statistical tests
-- ✅ Time series decomposition and forecasting models
-- ✅ Agricultural crop yield correlation analysis
+- [x] Multi-source satellite data integration (GRACE, GLDAS, MODIS)
+- [x] District-level granular analysis (27 districts total)
+- [x] 23+ years of historical data
+- [x] Comprehensive EDA with statistical tests
+- [x] Time series decomposition and forecasting models
+- [x] Agricultural crop yield correlation analysis
 
 ---
 
-## 🔬 Research Highlights
+##  Research Highlights
 
 ### Study Period
 - **Groundwater Data**: 2000-2023 (23 years)
@@ -67,7 +67,7 @@ To analyze the temporal relationships between groundwater indicators (GRACE, GLD
 
 ---
 
-## 📊 Datasets
+##  Datasets
 
 ### 1. **Groundwater Data** (Primary Data - Collected via Google Earth Engine)
 
@@ -145,7 +145,7 @@ To analyze the temporal relationships between groundwater indicators (GRACE, GLD
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 drought-analysis-india/
@@ -182,7 +182,7 @@ drought-analysis-india/
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -225,13 +225,13 @@ ee.Initialize()
 
 ---
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### 1. Data Collection (Optional - Datasets already provided)
 
 The `project_datacollection.ipynb` notebook contains scripts to collect data from Google Earth Engine.
 
-**⚠️ Note**: The successful data collection code is in **Cell 13** (Batch Export approach). Earlier cells have authentication/processing issues.
+**⚠ Note**: The successful data collection code is in **Cell 13** (Batch Export approach). Earlier cells have authentication/processing issues.
 
 ```python
 # Key working cell: Batch Export for GRACE/GLDAS
@@ -288,7 +288,7 @@ marathwada_data = icrisat_data[icrisat_data['Dist Name'].isin(marathwada_distric
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 ### Drought Patterns
 1. **Marathwada Region**: Significant groundwater depletion observed post-2010
@@ -308,7 +308,7 @@ marathwada_data = icrisat_data[icrisat_data['Dist Name'].isin(marathwada_distric
 
 ---
 
-## 💻 Technologies Used
+##  Technologies Used
 
 ### Data Collection & Processing
 - **Google Earth Engine** - Satellite data extraction
@@ -334,7 +334,7 @@ marathwada_data = icrisat_data[icrisat_data['Dist Name'].isin(marathwada_distric
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -353,13 +353,13 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📚 Citation
+##  Citation
 
 If you use this dataset or code in your research, please cite:
 
@@ -381,7 +381,7 @@ If you use this dataset or code in your research, please cite:
 
 ---
 
-## 📧 Contact
+##  Contact
 
 **Project Maintainer**: [Your Name]  
 **Email**: [Your Email]  
@@ -395,7 +395,7 @@ If you use this dataset or code in your research, please cite:
 
 ---
 
-## 🌟 Acknowledgments
+##  Acknowledgments
 
 - **ICRISAT** for providing district-level agricultural data
 - **NASA** for GRACE and GLDAS datasets via Google Earth Engine
@@ -405,9 +405,9 @@ If you use this dataset or code in your research, please cite:
 
 ---
 
-## 📈 Project Status
+##  Project Status
 
-🟢 **Active Development** - Data collection complete, analysis ongoing
+ **Active Development** - Data collection complete, analysis ongoing
 
 ### Roadmap
 - [x] Data collection from Google Earth Engine
@@ -420,7 +420,7 @@ If you use this dataset or code in your research, please cite:
 
 ---
 
-## ⚠️ Important Notes
+## ⚠ Important Notes
 
 ### Data Usage Guidelines
 1. **GRACE data** ended in 2017; use GRACE-FO for post-2018 data
@@ -440,7 +440,7 @@ If you use this dataset or code in your research, please cite:
 
 ---
 
-## 🎓 Educational Use
+##  Educational Use
 
 This project is ideal for:
 - **Students** learning time series analysis and geospatial data science
@@ -450,7 +450,7 @@ This project is ideal for:
 
 ---
 
-## 📊 Dataset Statistics
+##  Dataset Statistics
 
 | Dataset | Records | Time Period | Regions | Variables |
 |---------|---------|-------------|---------|-----------|
@@ -466,12 +466,12 @@ This project is ideal for:
 
 ---
 
-⭐ **Star this repository if you find it useful!** ⭐
+* **Star this repository if you find it useful!** *
 
-🐛 **Found a bug?** [Open an issue](https://github.com/YOUR_USERNAME/drought-analysis-india/issues)
+ **Found a bug?** [Open an issue](https://github.com/YOUR_USERNAME/drought-analysis-india/issues)
 
-💡 **Have suggestions?** [Start a discussion](https://github.com/YOUR_USERNAME/drought-analysis-india/discussions)
+ **Have suggestions?** [Start a discussion](https://github.com/YOUR_USERNAME/drought-analysis-india/discussions)
 
 ---
 
-*Made with ❤️ for better drought understanding and agricultural resilience in India*
+*Made with ❤ for better drought understanding and agricultural resilience in India*
