@@ -4,6 +4,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Enabled-green.svg)](https://earthengine.google.com/)
+[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-20BEFF.svg)](https://www.kaggle.com/datasets/kmgs04/india-drought-analysis-data-2000-2023)
+
+---
+
+## Dataset Access
+
+**Complete dataset (30+ MB) is hosted on Kaggle:**  
+[https://www.kaggle.com/datasets/kmgs04/india-drought-analysis-data-2000-2023](https://www.kaggle.com/datasets/kmgs04/india-drought-analysis-data-2000-2023)
+
+The dataset includes:
+- NASA GRACE groundwater data (2003-2017)
+- NASA GLDAS soil moisture data (2000-2002, 2018-2023)
+- ICRISAT agricultural statistics (1966-2014)
+- Climate indicators (NDVI, SPEI, rainfall, soil moisture)
+- Coverage: 27 districts across 3 drought-prone regions in India
 
 ---
 
@@ -192,8 +207,8 @@ drought-analysis-india/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/drought-analysis-india.git
-cd drought-analysis-india
+git clone https://github.com/KevinG45/india-drought-analysis.git
+cd india-drought-analysis
 ```
 
 ### Step 2: Create Virtual Environment
@@ -389,8 +404,8 @@ If you use this dataset or code in your research, please cite:
 **Institution**: Christ University
 
 ### Project Links
-- **GitHub Repository**: [https://github.com/YOUR_USERNAME/drought-analysis-india](https://github.com/YOUR_USERNAME/drought-analysis-india)
-- **Kaggle Dataset**: [Link after upload]
+- **GitHub Repository**: [https://github.com/KevinG45/india-drought-analysis](https://github.com/KevinG45/india-drought-analysis)
+- **Kaggle Dataset**: [https://www.kaggle.com/datasets/kmgs04/india-drought-analysis-data-2000-2023](https://www.kaggle.com/datasets/kmgs04/india-drought-analysis-data-2000-2023)
 - **Research Paper**: [Available on request]
 
 ---
